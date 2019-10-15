@@ -15,18 +15,18 @@ void draw() {
  
   if(mousePressed) {
     //green world
-    //background(0,255,25);
-    //stroke(255,199,132,opacity);
-    //fill(173,41,52,opacity);
-    //rect(500-mouseY/2,350-mouseY/2, mouseY,mouseY);
+    background(0,255,25);
+    stroke(255,199,132,opacity);
+    fill(173,41,52,opacity);
+    rect(500-mouseY/2,350-mouseY/2, mouseY,mouseY);
     
-    ////snow
-    //noStroke();
-    //fill(255,0,246);
+    //snow
+    noStroke();
+    fill(255,0,246);
     
-    //for(int i = 0; i < -1000; i=i+60) {
-    //  ellipse(mouseX + i + random(300),snowY+random(300), 25,25);
-    //} // end for loop
+    for(int i = -1000; i < 1000; i=i+60) {
+      ellipse(mouseX + i + random(300),snowY+random(300), 25,25);
+    } // end for loop
     
     
     
