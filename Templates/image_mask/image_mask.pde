@@ -13,6 +13,5 @@ void setup() {
 
 void draw() {
   background(0);
-  tint(255, 0, 0, 130);
   image(myCoolPhoto, mouseX, mouseY, mouseX, mouseY);
 }
